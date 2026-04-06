@@ -1,0 +1,40 @@
+class light{
+    String name;
+}
+class ac{
+    void turnon(){
+        System.out.println("ac is on");
+    }
+    void turnoff(){
+        System.out.println("ac is off");
+    }
+}
+interface trigger{
+    boolean isTriggered();
+}
+class motiontri implements trigger{
+    motiontri()
+    {
+        motiontri mt=new motiontri();
+    }
+    @Override
+    public boolean isTriggered() {
+        return true;
+    }
+}
+class time implements trigger{
+   double time;
+    time(double time)
+    {
+        this.time = time;
+    } 
+    @Override
+    public boolean isTriggered() {
+        return true;
+    }
+}
+abstract class smartdevice
+{
+    name
+}
+
